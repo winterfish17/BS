@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Main.unity
+    guid: 247e9db6fc770044b803632679313efd
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/15Puzzle.unity
+    guid: c6153e041706258479112f0af0e1913c
+  - enabled: 1
+    path: Assets/Scenes/Complete.unity
+    guid: 67769d3dfc6e3d64f9c4659e33fe7efb
+  - enabled: 1
+    path: Assets/Scenes/MoveTest.unity
+    guid: 15133a5bc8d6c4f42bf37e94e957567d
+  - enabled: 1
+    path: Assets/Scenes/WireTask.unity
+    guid: a914e25dfcac9904cb1abfb47bb5cb7d
   m_configObjects: {}
