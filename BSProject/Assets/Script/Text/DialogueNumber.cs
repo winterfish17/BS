@@ -6,4 +6,5 @@ public class DialogueNumber : MonoBehaviour
 {
     public int number;
     public int dialogueCnt = 0;
+    public string sceneName;
 }

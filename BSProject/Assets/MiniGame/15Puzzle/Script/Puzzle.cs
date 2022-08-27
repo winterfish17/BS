@@ -143,7 +143,7 @@ public class Puzzle : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         for (int i = 0; i < titleNum * 50; i++)
-            Shuffle();
+            //Shuffle();
 
         isShuffling = false;
     }
@@ -202,7 +202,7 @@ public class Puzzle : MonoBehaviour
             }
             isShuffling = true;
             yield return new WaitForSeconds(3);
-            sceneManagement.SceneChange("Game");
+            sceneManagement.SceneChange("MoveTest");
         }
     }
 }
